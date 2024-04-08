@@ -20,7 +20,7 @@ function App() {
   }, [length, numberAllowed, charallowed, setPassword]);
   return (
     <>
-      <div className="w-full max-w-md mx-auto shadow-md rounded-lg px-4 py-4 my-8 text-slate-950 bg-slate-400">
+      <div className="w-full max-w-md mx-auto shadow-md rounded-lg px-4 py-4 justify-center my-8 text-slate-950 bg-gray-300">
         <h1 className="text-slate-950 text-center font-bold text-xl my-3">I am Password Generator</h1>
 
         <div className="flex shadow rounded-lg overflow-hidden mb-4">
