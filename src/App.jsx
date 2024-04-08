@@ -20,8 +20,8 @@ function App() {
   }, [length, numberAllowed, charallowed, setPassword]);
   return (
     <>
-      <div className="w-full max-w-md mx-auto shadow-md rounded-lg px-4 py-4 my-8 text-orange-500 bg-gray-700">
-        <h1 className="text-white text-center my-3">i am Password Generator</h1>
+      <div className="w-full max-w-md mx-auto shadow-md rounded-lg px-4 py-4 my-8 text-slate-950 bg-slate-400">
+        <h1 className="text-slate-950 text-center font-bold text-xl my-3">I am Password Generator</h1>
 
         <div className="flex shadow rounded-lg overflow-hidden mb-4">
           <input
@@ -35,7 +35,7 @@ function App() {
             copy
           </button>
         </div>
-        <div className="flex text-sm gap-x-2">
+        <div className="flex items-center justify-center text-sm font-bold gap-x-2">
           <div className="flex items-center gap-x-1">
             <input
               type="range"
