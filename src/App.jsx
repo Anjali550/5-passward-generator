@@ -1,23 +1,8 @@
 import { useState, useCallback } from "react";
 
 function App() {
-  const [length, setLength] = useState(8);
-  const [numberAllowed, setNumberallowed] = useState(false);
-  const [charallowed, setCharallowed] = useState(false);
-  const [password, setPassword] = useState("");
-  const passwordGenerater = useCallback(() => {
-    let pass = "";
-    let str = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
-    if (numberAllowed) str += "0123456789";
-    if (charallowed) str += "!@#$%^&*_+";
-
-    for (let i = 1; (i) => length; i++) {
-      let char = Math.floor(Math.random() * str.length + 1);
-
-      pass = str.charAt(char);
-    }
-    setPassword(pass);
-  }, [length, numberAllowed, charallowed, setPassword]);
+ 
+  }, [length, numberAllowed, charallowed, setPassword];
   return (
     <>
       <div className="w-full max-w-md mx-auto shadow-md rounded-lg px-4 py-4 justify-center my-8 text-slate-950 bg-gray-300">
