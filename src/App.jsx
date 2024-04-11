@@ -22,9 +22,7 @@ function App() {
     <>
       <div className="w-full max-w-md mx-auto shadow-md rounded-lg px-4 py-4 justify-center my-8 text-slate-950 bg-gray-300">
         <h1 className="text-slate-950 text-center font-bold text-xl my-3">I am Password Generator</h1>
-        <h3 className="flex shadow rounded-lg overflow-hidden mb-4">Word count</h3>
-        <h3 className="flex shadow rounded-lg overflow-hidden mb-4">number count</h3>
-        <h4 className="flex shadow rounded-lg overflow-hidden mb-4">Symbol count</h4>
+       
 
         <div className="flex shadow rounded-lg overflow-hidden mb-4">
           <input
